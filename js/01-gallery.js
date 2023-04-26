@@ -35,5 +35,5 @@ function onImageClick(e) {
             e.code === "Enter") {
           instance.close();
         }
-    })  
+    },{once:true})  
 }
